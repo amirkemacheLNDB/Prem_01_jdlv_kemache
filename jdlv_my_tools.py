@@ -424,7 +424,7 @@ def apply_rules (grid, compteur):
         time.sleep (0.1)
 
         if compteur > 80:
-            next_grid = apply_game_of_life_rules (grid)
+            next_grid = apply_game_of_life_rules_85 (grid)
         else:
             next_grid = apply_game_of_life_rules (grid)
     return next_grid
